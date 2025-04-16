@@ -1,6 +1,6 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
+import Image1 from "../../assets/hero/men.png";
+import Image2 from "../../assets/hero/women.png";
 import Image3 from "../../assets/hero/sale.png";
 import Slider from "react-slick";
 
@@ -41,17 +41,18 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-slate-950 dark:text-white duration-200 ">
+    <div className="relative bg-[#F9F8F4] overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-slate-950 dark:text-white duration-200 ">
       {/* background pattern */}
-      <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
+      <div className="h-[550px] w-[550px] bg-[#F9F8F4] shadow-2xl	absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8] "></div>
+      <div className="h-[500px] w-[500px] bg-[#F9F8F4] shadow-2xl absolute -bottom-2/3 left-0 rounded-3xl rotate-45 -z[8] "></div>
       {/* hero section */}
-      <div className="container pb-8 sm:pb-0">
-        <Slider {...settings}>
+      <div className="container sm:pb-0">
+        <Slider className=" mx-auto pl-[50px]" {...settings}>
           {ImageList.map((data) => (
             <div key={data.id}>
               <div className="grid grid-cols-1 sm:grid-cols-2">
                 {/* text content section */}
-                <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
+                <div className="flex flex-col justify-center gap-4 pt-12 pl-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                   <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                     {data.title}
                   </h1>
@@ -61,7 +62,7 @@ const Hero = ({ handleOrderPopup }) => {
                   <div>
                     <button
                       onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
+                      className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                     >
                       Order Now
                     </button>

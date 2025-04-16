@@ -1,7 +1,9 @@
 import React from "react";
 // import footerLogo from "../../assets/logo.png";
 // import Banner from "../../assets/website/footer-pattern.jpg";
-import { FiShoppingBag } from "react-icons/fi";
+// import { FiShoppingBag } from "react-icons/fi";
+
+import {GiLoincloth} from "react-icons/gi";
 import { FaMapLocationDot } from "react-icons/fa6";
 import {
   FaFacebook,
@@ -48,9 +50,9 @@ const Footer = () => {
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-1">
-              <FiShoppingBag size="30" />
+              <GiLoincloth size="50" />
               {/* <img src={footerLogo} alt="" className="max-w-[50px]" /> */}
-              ShopMe
+              Vastraa
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in

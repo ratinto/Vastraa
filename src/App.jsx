@@ -10,6 +10,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
+import "./App.css";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -28,11 +29,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+    <div className="bg-[#F9F8F4] dark:bg-gray-900 dark:text-white duration-200">
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero handleOrderPopup={handleOrderPopup} />
-      <Products />
       <TopProducts handleOrderPopup={handleOrderPopup} />
+      <Products />
       <Banner />
       <Subscribe />
       <Testimonials />

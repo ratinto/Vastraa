@@ -32,10 +32,8 @@ const TopProducts = ({ handleOrderPopup }) => {
     <div>
       <div className="container">
         {/* Header section */}
-        <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Products for you
-          </p>
+        <div className="text-center mt-[30px]  mb-[100px] max-w-[600px] mx-auto">
+        
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Best Products
           </h1>

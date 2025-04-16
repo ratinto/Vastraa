@@ -5,6 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
 import { FiShoppingBag } from "react-icons/fi";
+import { GiLoincloth } from "react-icons/gi";
 
 const Menu = [
   {
@@ -56,12 +57,12 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div className="shadow-md bg-white dark:bg-slate-800 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
-      <div className="bg-primary/40 py-2">
+      <div className="bg-[#334156] py-2">
         <div className="container flex justify-between items-center">
           <div>
-            <a href="#" className="font-bold text-xl items-center flex gap-1">
-              <FiShoppingBag size="30" />
-              ShopMe
+            <a href="#" className="font-bold text-white text-xl items-center flex gap-1">
+              <GiLoincloth size="40" />
+              Vastraa
             </a>
           </div>
 
@@ -80,12 +81,12 @@ const Navbar = ({ handleOrderPopup }) => {
             {/* order button */}
             <button
               onClick={() => handleOrderPopup()}
-              className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
+              className="bg-white from-primary to-secondary transition-all duration-200 text-black  py-1 px-4 rounded-full flex items-center gap-3 group"
             >
               <span className="group-hover:block hidden transition-all duration-200">
                 Order
               </span>
-              <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
+              <FaCartShopping className="text-xl text-black drop-shadow-sm cursor-pointer" />
             </button>
 
             {/* Darkmode Switch */}

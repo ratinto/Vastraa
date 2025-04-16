@@ -1,0 +1,85 @@
+{
+  "hash": "c0f422eb",
+  "configHash": "af160a64",
+  "lockfileHash": "adcc019b",
+  "browserHash": "c4cc1f01",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "07626ade",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c57d5d75",
+      "needsInterop": true
+    },
+    "aos": {
+      "src": "../../node_modules/aos/dist/aos.js",
+      "file": "aos.js",
+      "fileHash": "bcbc7c31",
+      "needsInterop": true
+    },
+    "react-icons/fa6": {
+      "src": "../../node_modules/react-icons/fa6/index.esm.js",
+      "file": "react-icons_fa6.js",
+      "fileHash": "93859fcf",
+      "needsInterop": false
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "34fdcb34",
+      "needsInterop": true
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.esm.js",
+      "file": "react-icons_fa.js",
+      "fileHash": "f7438a61",
+      "needsInterop": false
+    },
+    "react-icons/io": {
+      "src": "../../node_modules/react-icons/io/index.esm.js",
+      "file": "react-icons_io.js",
+      "fileHash": "99ca529b",
+      "needsInterop": false
+    },
+    "react-icons/fi": {
+      "src": "../../node_modules/react-icons/fi/index.esm.js",
+      "file": "react-icons_fi.js",
+      "fileHash": "1f5ced3b",
+      "needsInterop": false
+    },
+    "react-icons/gi": {
+      "src": "../../node_modules/react-icons/gi/index.esm.js",
+      "file": "react-icons_gi.js",
+      "fileHash": "8a468fb9",
+      "needsInterop": false
+    },
+    "react-icons/io5": {
+      "src": "../../node_modules/react-icons/io5/index.esm.js",
+      "file": "react-icons_io5.js",
+      "fileHash": "fce7c912",
+      "needsInterop": false
+    },
+    "react-icons/gr": {
+      "src": "../../node_modules/react-icons/gr/index.esm.js",
+      "file": "react-icons_gr.js",
+      "fileHash": "acc5c0a5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TGKKAFKZ": {
+      "file": "chunk-TGKKAFKZ.js"
+    },
+    "chunk-2PIBWAMS": {
+      "file": "chunk-2PIBWAMS.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
