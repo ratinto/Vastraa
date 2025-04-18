@@ -4,28 +4,29 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Rohit",
+    text: "This platform truly exceeded my expectations. The experience was smooth, stylish, and exactly what I was looking for.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Manisha",
+    text: "A seamless blend of innovation and user experience. I appreciate the attention to detail and quality throughout.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Ritesh",
+    text: "Absolutely loved it! Fast, reliable, and top-notch service — just like a perfectly timed cover drive.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Aditya",
+    text: "Precision and excellence at every step. This is the kind of quality that wins hearts — truly memorable.",
     img: "https://picsum.photos/103/103",
   },
+  
 ];
 
 const Testimonials = () => {
@@ -72,15 +73,11 @@ const Testimonials = () => {
       <div className="container">
         {/* header section */}
         <div className="text-center  mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            What our customers are saying
-          </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          Hear from real customers who’ve experienced the quality, speed, and satisfaction we aim to deliver with every order.
           </p>
         </div>
 

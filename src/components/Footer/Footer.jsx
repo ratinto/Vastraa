@@ -55,30 +55,15 @@ const Footer = () => {
               Vastraa
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+            At Vastraa, we blend traditional craftsmanship with modern fashion to bring you
+            premium quality clothing for every occasion. Crafted with care, styled for you.
             </p>
           </div>
 
           {/* Footer Links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
-            <div>
-              <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
-                </h1>
-                <ul className="flex flex-col gap-3">
-                  {FooterLinks.map((link) => (
-                    <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
-                      key={link.title}
-                    >
-                      <span>{link.title}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+          <div className="grid grid-cols-2 sm:flex sm:justify-between col-span-2 md:pl-10">
+
+            {/* here is the links */}
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
@@ -114,7 +99,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaMapLocationDot />
-                  <p>Indore, Madhya Pradesh</p>
+                  <p>Sonipat, Haryana</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <IoCall />
