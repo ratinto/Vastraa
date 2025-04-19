@@ -1,8 +1,4 @@
 import React from "react";
-// import footerLogo from "../../assets/logo.png";
-// import Banner from "../../assets/website/footer-pattern.jpg";
-// import { FiShoppingBag } from "react-icons/fi";
-
 import {GiLoincloth} from "react-icons/gi";
 import { FaMapLocationDot } from "react-icons/fa6";
 import {
@@ -13,6 +9,8 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
+
+import { Link } from "react-router-dom";
 
 // const BannerImg = {
 //   backgroundImage: `url(${Banner})`,
@@ -26,19 +24,19 @@ import { IoCall } from "react-icons/io5";
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     title: "About",
-    link: "/#about",
+    link: "/about",
   },
   {
     title: "Contact",
-    link: "/#contact",
+    link: "/contact",
   },
   {
     title: "Blog",
-    link: "/#blog",
+    link: "/blog",
   },
 ];
 
@@ -75,7 +73,8 @@ const Footer = () => {
                       className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                       key={link.title}
                     >
-                      <span>{link.title}</span>
+                      <Link to={link.link}>{link.title}</Link>
+                      {/* <span>{link.title}</span> */}
                     </li>
                   ))}
                 </ul>
