@@ -11,6 +11,8 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
 import "./App.css";
+import About from "./components/Pages/About/About";
+import Contact from "./components/Pages/Contact/Contact";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -29,14 +31,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-[#F9F8F4] dark:bg-gray-900 dark:text-white duration-200">
-      <Navbar handleOrderPopup={handleOrderPopup} />
-      <Hero handleOrderPopup={handleOrderPopup} />
-      <TopProducts handleOrderPopup={handleOrderPopup} />
-      <Products />
-      <Banner />
-      <Subscribe />
-      <Testimonials />
+    <div className="min-h-screen flex flex-col bg-[#F9F8F4] dark:bg-gray-900 dark:text-white duration-200">
+      <div className="flex-1">
+        <Navbar handleOrderPopup={handleOrderPopup} />
+        <Hero handleOrderPopup={handleOrderPopup} />
+        <TopProducts handleOrderPopup={handleOrderPopup} />
+        <Products />
+        <Banner />
+        <Subscribe />
+        <Testimonials />
+        {/* <About /> */}
+        {/* <Contact /> */}
+      </div>
       <Footer />
       <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
     </div>
