@@ -42,7 +42,7 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div className="text-white bg-[#212529]">
+    <div className="text-white bg-[#212529] mt-[50px]">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}

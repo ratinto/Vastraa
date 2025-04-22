@@ -17,7 +17,7 @@ const Menu = [
   {
     id: 2,
     name: "Top Rated",
-    link: "/services",
+    link: "/top_rated",
   },
   {
     id: 3,
